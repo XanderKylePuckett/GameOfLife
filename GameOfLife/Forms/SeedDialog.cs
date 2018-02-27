@@ -6,31 +6,31 @@ using System.Windows.Forms;
 
 namespace GameOfLife
 {
-	public partial class SeedDialog : Form
-	{
-		// SeedDialog Form initialization
-		//
-		public SeedDialog()
-		{
-			InitializeComponent();
-		}
+    public partial class SeedDialog : Form
+    {
+        // SeedDialog Form initialization
+        //
+        public SeedDialog()
+        {
+            InitializeComponent();
+        }
 
-		#region << Properties >>
-		// Seed
-		// NumericUpDown: [-2147483648]->[2147483647]
-		public int Seed
-		{
-			get
-			{
-				return (int)seedNumericUpDown.Value;
-			}
-			set
-			{
-				seedNumericUpDown.Value = value;
-			}
-		}
-		#endregion
-	}
+        #region << Properties >>
+        // Seed
+        // NumericUpDown: [-2147483648]->[2147483647]
+        public int Seed
+        {
+            get
+            {
+                return (int)seedNumericUpDown.Value;
+            }
+            set
+            {
+                seedNumericUpDown.Value = value;
+            }
+        }
+        #endregion
+    }
 
 }
 

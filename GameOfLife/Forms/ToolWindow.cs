@@ -6,15 +6,15 @@ using System.Windows.Forms;
 
 namespace GameOfLife
 {
-	public partial class ToolWindow : Form
-	{
-		// ToolWindow Form initialization
-		//
-		public ToolWindow()
-		{
-			InitializeComponent();
-		}
-	}
+    public partial class ToolWindow : Form
+    {
+        // ToolWindow Form initialization
+        //
+        public ToolWindow()
+        {
+            InitializeComponent();
+        }
+    }
 }
 
 // ☻☺ トニー ☺☻ -- Y:2015年 M:11月 //
